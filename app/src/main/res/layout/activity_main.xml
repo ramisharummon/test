@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+
+ <EditText
+android:id="@+id/editText1"
+android:layout_marginTop="30dp"
+android:layout_marginLeft="20dp"
+android:layout_marginRight="20dp"
+android:layout_marginBottom="10dp"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Enter a Number"
+android:inputType="numberDecimal"/>
+
+<EditText
+android:id="@+id/editText2"
+android:layout_marginTop="30dp"
+android:layout_marginLeft="20dp"
+android:layout_marginRight="20dp"
+android:layout_marginBottom="10dp"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Enter Number"
+android:inputType="numberDecimal"/>
+
+
+<LinearLayout
+android:layout_marginTop="10dp"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<Button
+    android:onClick="add"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight=".25"
+    android:text="+"
+    android:textSize="20dp"
+    android:textStyle="bold"/>
+
+
+<Button
+    android:onClick="sub"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight=".25"
+    android:text="-"
+    android:textSize="20dp"
+    android:textStyle="bold"/>
+
+<Button
+    android:onClick="multiply"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight=".25"
+    android:text="x"
+    android:textSize="20dp"
+    android:textStyle="bold"/>
+
+<Button
+    android:onClick="division"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight=".25"
+    android:text="/"
+    android:textSize="20dp"
+    android:textStyle="bold"/>
+
+</LinearLayout>
+<TextView
+android:id="@+id/resultTv"
+android:layout_margin="20dp"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:textAlignment="center"
+android:text="The Result is:"
+android:textSize="20sp"/>
+
+    </LinearLayout>
+
