@@ -37,21 +37,21 @@ public class MainActivity extends AppCompatActivity {
             switch (i){
                 case 0:
                     double result = Double.parseDouble(number1)+Double.parseDouble(number2);
-                    resultTv.setText(String.valueOf(result));
+                    resultTv.setText("Reselt: "+String.valueOf(result));
                     break;
 
                 case 1:
                     double result1 = Double.parseDouble(number1)-Double.parseDouble(number2);
-                    resultTv.setText(String.valueOf(result1));
+                    resultTv.setText("Reselt: "+String.valueOf(result1));
                     break;
                 case 2:
                     double result2 = Double.parseDouble(number1)*Double.parseDouble(number2);
-                    resultTv.setText(String.valueOf(result2));
+                    resultTv.setText("Reselt: "+String.valueOf(result2));
                     break;
 
                 case 3:
                     double result3 = Double.parseDouble(number1)/Double.parseDouble(number2);
-                    resultTv.setText(String.valueOf(result3));
+                    resultTv.setText("Reselt: "+String.valueOf(result3));
                     break;
             }
 
